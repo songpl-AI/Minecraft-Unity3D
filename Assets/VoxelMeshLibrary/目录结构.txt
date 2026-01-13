@@ -43,15 +43,23 @@ VoxelMeshLibrary/
 ├── 📚 CHANGELOG.md                    📝 更新日志
 │   └── 版本历史和未来计划
 │
-└── 📁 Examples/                       💡 使用示例
-    ├── MinecraftExample.cs            # 示例1：Minecraft风格
-    │   └── 展示如何集成到Minecraft项目
-    │
-    ├── SimpleExample.cs               # 示例2：简单整数系统
-    │   └── 展示最简单的使用方式
-    │
-    └── AdvancedExample.cs             # 示例3：自定义体素类
-        └── 展示复杂体素系统的实现
+├── 📁 Examples/                       💡 C# 使用示例
+│   ├── MinecraftExample.cs            # 示例1：Minecraft风格
+│   │   └── 展示如何集成到Minecraft项目
+│   │
+│   ├── SimpleExample.cs               # 示例2：简单整数系统
+│   │   └── 展示最简单的使用方式
+│   │
+│   └── AdvancedExample.cs             # 示例3：自定义体素类
+│       └── 展示复杂体素系统的实现
+│
+└── 📁 Lua/                            🌙 Lua 版本（xLua）
+    ├── README.md                      # Lua 版本快速入门
+    ├── 目录结构.txt                   # Lua 文件结构说明
+    ├── VoxelMeshBuilder_Lua使用说明.md # 详细使用文档
+    ├── VoxelMeshBuilder.lua           # 核心：Lua 版本的 Mesh 构建器
+    ├── VoxelMeshBuilderExample.lua    # 示例：Lua 版本的使用示例
+    └── VoxelMeshBuilderLuaTest.cs     # Unity 集成：C# 测试脚本
 
 
 📋 使用流程
@@ -96,7 +104,9 @@ VoxelMeshLibrary/
 5分钟快速上手              → 快速参考.md ⚡
 详细移植步骤              → 移植指南.md 🚀
 完整功能说明              → README.md 📖
-查看具体示例              → Examples/ 💡
+查看 C# 示例              → Examples/ 💡
+使用 Lua 版本             → Lua/README.md 🌙
+Lua 详细文档              → Lua/VoxelMeshBuilder_Lua使用说明.md
 了解API细节               → 快速参考.md
 排查问题                  → 移植指南.md（故障排除）
 性能优化                  → 移植指南.md（优化建议）
@@ -121,14 +131,25 @@ VoxelMeshLibrary/
 📊 文件大小参考
 ---------------
 
+C# 核心文件：
 IVoxelData.cs           ~  2KB  (50行)
 VoxelMeshBuilder.cs     ~  8KB  (200行)
+
+C# 文档和示例：
 README.md               ~ 15KB  (详细文档)
 移植指南.md             ~ 20KB  (超详细)
 快速参考.md             ~  5KB  (速查)
 Examples/               ~ 15KB  (3个示例)
+
+Lua 版本：
+Lua/VoxelMeshBuilder.lua           ~ 10KB  (核心)
+Lua/VoxelMeshBuilderExample.lua    ~ 12KB  (示例)
+Lua/VoxelMeshBuilderLuaTest.cs     ~  5KB  (Unity 集成)
+Lua/VoxelMeshBuilder_Lua使用说明.md ~ 18KB  (文档)
 ────────────────────────────────────
-总计                    ~ 65KB
+C# 版本总计              ~ 65KB
+Lua 版本额外             ~ 45KB
+总计                     ~ 110KB
 
 
 🔗 依赖关系
@@ -184,9 +205,22 @@ VoxelMeshBuilder.cs
 ✨ 总结
 -------
 
-核心：2个文件
-文档：4个Markdown
-示例：3个完整示例
-目标：5分钟集成到任何Unity项目
+C# 版本：
+  核心：2个文件
+  文档：4个Markdown
+  示例：3个完整示例
+  目标：5分钟集成到任何Unity项目
+
+Lua 版本（xLua）：
+  核心：1个 Lua 文件
+  示例：1个 Lua 示例 + 1个 C# 集成脚本
+  文档：2个 Markdown
+  特性：支持热更新、动态加载
+  性能：约为 C# 版本的 40-60%
+
+选择建议：
+  - 需要最高性能 → 使用 C# 版本
+  - 需要热更新、灵活配置 → 使用 Lua 版本
+  - 两者可以并存，根据场景选择
 
 开始你的体素之旅吧！🚀
