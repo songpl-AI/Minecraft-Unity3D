@@ -352,7 +352,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d30f41b46d0b245a4a7b665fd27fb80d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objUrl: file:///Users/tal/Downloads/decimated_1768202429.obj
+  objUrl: file:///Users/tal/Documents/AIProjects/Minecraft-Unity3D/LocalTestAssets/cube.obj
   textureUrl: 
   defaultMaterial: {fileID: 0}
   autoRotate: 1
