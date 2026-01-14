@@ -11,7 +11,7 @@ public class LoadedObjData
 
 public static class RuntimeObjImporter
 {
-    public static LoadedObjData Import(string objContent)
+    public static LoadedObjData Import(string objContent, bool flipUV = true, bool flipFaces = false)
     {
         List<Vector3> vertices = new List<Vector3>();
         List<Vector3> normals = new List<Vector3>();
@@ -61,7 +61,11 @@ public static class RuntimeObjImporter
             {
                 float u = float.Parse(parts[1], CultureInfo.InvariantCulture);
                 float v = float.Parse(parts[2], CultureInfo.InvariantCulture);
-                uv.Add(new Vector2(u, v));
+                
+                if (flipUV)
+                    uv.Add(new Vector2(u, 1f - v));
+                else
+                    uv.Add(new Vector2(u, v));
             }
             else if (type == "f")
             {
@@ -85,9 +89,20 @@ public static class RuntimeObjImporter
                 
                 for (int i = 0; i < vIndices.Length - 2; i++)
                 {
-                    AddVertexData(vIndices[0], tIndices[0], nIndices[0], vertices, uv, normals, newVertices, newUVs, newNormals, triangles);
-                    AddVertexData(vIndices[i + 1], tIndices[i + 1], nIndices[i + 1], vertices, uv, normals, newVertices, newUVs, newNormals, triangles);
-                    AddVertexData(vIndices[i + 2], tIndices[i + 2], nIndices[i + 2], vertices, uv, normals, newVertices, newUVs, newNormals, triangles);
+                    if (flipFaces)
+                    {
+                        // Reverse winding order: 0, 2, 1
+                        AddVertexData(vIndices[0], tIndices[0], nIndices[0], vertices, uv, normals, newVertices, newUVs, newNormals, triangles);
+                        AddVertexData(vIndices[i + 2], tIndices[i + 2], nIndices[i + 2], vertices, uv, normals, newVertices, newUVs, newNormals, triangles);
+                        AddVertexData(vIndices[i + 1], tIndices[i + 1], nIndices[i + 1], vertices, uv, normals, newVertices, newUVs, newNormals, triangles);
+                    }
+                    else
+                    {
+                        // Standard winding order: 0, 1, 2
+                        AddVertexData(vIndices[0], tIndices[0], nIndices[0], vertices, uv, normals, newVertices, newUVs, newNormals, triangles);
+                        AddVertexData(vIndices[i + 1], tIndices[i + 1], nIndices[i + 1], vertices, uv, normals, newVertices, newUVs, newNormals, triangles);
+                        AddVertexData(vIndices[i + 2], tIndices[i + 2], nIndices[i + 2], vertices, uv, normals, newVertices, newUVs, newNormals, triangles);
+                    }
                 }
             }
         }
@@ -114,12 +129,23 @@ public static class RuntimeObjImporter
         return new LoadedObjData { mesh = mesh, mtlFileName = mtlFileName };
     }
 
+    private static int ResolveObjIndex(int idx, int count)
+    {
+        if (idx > 0) return idx;
+        if (idx < 0) return count + idx + 1;
+        return 0;
+    }
+
     private static void AddVertexData(
         int vIdx, int tIdx, int nIdx,
         List<Vector3> sourceV, List<Vector2> sourceT, List<Vector3> sourceN,
         List<Vector3> destV, List<Vector2> destT, List<Vector3> destN,
         List<int> destTriangles)
     {
+        vIdx = ResolveObjIndex(vIdx, sourceV.Count);
+        tIdx = ResolveObjIndex(tIdx, sourceT.Count);
+        nIdx = ResolveObjIndex(nIdx, sourceN.Count);
+
         if (vIdx > 0 && vIdx <= sourceV.Count)
             destV.Add(sourceV[vIdx - 1]);
         else

@@ -352,12 +352,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d30f41b46d0b245a4a7b665fd27fb80d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objUrl: https://static0.xesimg.com/next-studio-pub/tal_factory_3d/1402924289250164736/decimated_1768377864.obj
-  textureUrl: https://static0.xesimg.com/next-studio-pub/app/1768380693627/4NaLdGkcEmgW4J5nQyNB.png
-  defaultMaterial: {fileID: 0}
+  zipUrl: 
+  objUrl: /Users/tal/Downloads/home_obj_1768382577/decimated.obj
+  textureUrl: /Users/tal/Downloads/home_obj_1768382577/texture_20250901.png
+  mtlUrl: /Users/tal/Downloads/home_obj_1768382577/decimated.obj.mtl
+  defaultMaterial: {fileID: 2100000, guid: 61c60c620a6f2482588e2afcfee6067a, type: 2}
   autoRotate: 1
   rotateSpeed: 30
   modelScale: {x: 1, y: 1, z: 1}
+  doubleSided: 0
+  flipUV: 0
+  flipFaces: 1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
