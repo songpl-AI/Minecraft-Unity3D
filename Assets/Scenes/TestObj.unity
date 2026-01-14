@@ -352,8 +352,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d30f41b46d0b245a4a7b665fd27fb80d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objUrl: file:///Users/tal/Documents/AIProjects/Minecraft-Unity3D/LocalTestAssets/cube.obj
-  textureUrl: 
+  objUrl: https://static0.xesimg.com/next-studio-pub/tal_factory_3d/1402924289250164736/decimated_1768377864.obj
+  textureUrl: https://static0.xesimg.com/next-studio-pub/app/1768380693627/4NaLdGkcEmgW4J5nQyNB.png
   defaultMaterial: {fileID: 0}
   autoRotate: 1
   rotateSpeed: 30
