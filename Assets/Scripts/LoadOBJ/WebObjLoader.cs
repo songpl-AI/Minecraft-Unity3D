@@ -252,7 +252,8 @@ public class WebObjLoader : MonoBehaviour
         try 
         {
             Debug.Log($"Parsing OBJ... FlipUV: {flipUV}, FlipFaces: {flipFaces}");
-            loadedData = RuntimeObjImporter.Import(objContent, flipUV, flipFaces);
+            // loadedData = RuntimeObjImporter.Import(objContent, flipUV, flipFaces);
+            loadedData = RuntimeObjImporter.Import(objContent);
         }
         catch (System.Exception e)
         {

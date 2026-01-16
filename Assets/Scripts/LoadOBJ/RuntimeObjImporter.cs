@@ -11,7 +11,7 @@ public class LoadedObjData
 
 public static class RuntimeObjImporter
 {
-    public static LoadedObjData Import(string objContent, bool flipUV = true, bool flipFaces = false)
+    public static LoadedObjData Import(string objContent, bool flipUV = false, bool flipFaces = true)
     {
         List<Vector3> vertices = new List<Vector3>();
         List<Vector3> normals = new List<Vector3>();
