@@ -1,0 +1,948 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "title": "西游记之女儿国",
+      "desc": "探索唐僧师徒四人途经女儿国的奇幻经历,感受东方古典神话的魅力与智慧。",
+      "cover": "https://static0.xesimg.com/next-studio-pub/ugc/images/nverguo.png",
+      "thumbs": [
+        "https://static0.xesimg.com/next-studio-pub/mod_docs_file/cover_image_20251225_202253_221861_1766665373.png",
+        "https://static0.xesimg.com/next-studio-pub/mod_docs_file/cover_image_20251225_202253_221861_1766665373.png"
+      ],
+      "videoUrl": "",
+      "contentType": "video",
+      "aspectRatio": 1.78,
+      "width": 1920,
+      "height": 1080,
+      "tags": [
+        {
+          "id": 1001,
+          "name": "中国神话"
+        },
+        {
+          "id": 1002,
+          "name": "文学鉴赏"
+        },
+        {
+          "id": 1005,
+          "name": "经典故事"
+        }
+      ],
+      "category": "神话",
+      "userId": 301,
+      "userName": "林安",
+      "userAvatar": "https://example.com/avatars/teacher_301.jpg",
+      "userTitle": "古典文学讲师、民俗文化研究者",
+      "userCompany": "海岳人文研究院",
+      "likeCount": 8234,
+      "liked": false,
+      "favoriteCount": 1245,
+      "favorited": false,
+      "commentCount": 3,
+      "viewCount": 156789,
+      "url": "https://ai-interactive-video-test.chuangjing.com/api/v1/preview/web/user-001/929e091c-a51e-4f81-b1e0-3cbe4fb9f47a/web/index.html",
+      "detail": "通过互动式视频体验，深入了解西游记中女儿国的故事情节，探讨唐僧面临的考验与选择。课程融合文学分析与互动游戏，适合中学生及古典文学爱好者。",
+      "comments": [
+        {
+          "id": 50001,
+          "userId": 8001,
+          "userName": "学员8001",
+          "userAvatar": "https://example.com/avatars/student_8001.jpg",
+          "content": "互动体验很棒，故事情节引人入胜，对西游记有了更深的理解。",
+          "createdAt": "2025-12-25T20:30:00Z"
+        },
+        {
+          "id": 50002,
+          "userId": 8002,
+          "userName": "学员8002",
+          "userAvatar": "https://example.com/avatars/student_8002.jpg",
+          "content": "画面精美，剧情设计合理，很有代入感。",
+          "createdAt": "2025-12-25T20:45:00Z"
+        },
+        {
+          "id": 50003,
+          "userId": 8003,
+          "userName": "学员8003",
+          "userAvatar": "https://example.com/avatars/student_8003.jpg",
+          "content": "通过游戏学习古典文学，这种形式很新颖。",
+          "createdAt": "2025-12-25T21:00:00Z"
+        }
+      ],
+      "likedUsers": [],
+      "createdAt": "2025-12-25T20:22:09Z",
+      "updatedAt": "2025-12-25T21:10:16Z"
+    },
+    
+    
+    
+    {
+      "id": 2,
+      "title": "曹冲称象",
+      "desc": "再现三国时期曹冲巧思称象的经典故事，学习古人的智慧与科学思维方法。",
+      "cover": "https://static0.xesimg.com/next-studio-pub/ugc/images/caocchongchengxiang.png",
+      "thumbs": [
+        "https://static0.xesimg.com/next-studio-pub/mod_docs_file/cover_image_20251225_175804_108654_1766656684.png",
+        "https://static0.xesimg.com/next-studio-pub/mod_docs_file/cover_image_20251225_175804_108654_1766656684.png"
+      ],
+      "videoUrl": "",
+      "contentType": "video",
+      "aspectRatio": 1.78,
+      "width": 1920,
+      "height": 1080,
+      "tags": [
+        {
+          "id": 1006,
+          "name": "历史故事"
+        },
+        {
+          "id": 1007,
+          "name": "科学思维"
+        },
+        {
+          "id": 1008,
+          "name": "三国历史"
+        }
+      ],
+      "category": "历史",
+      "userId": 302,
+      "userName": "张文博",
+      "userAvatar": "https://example.com/avatars/teacher_302.jpg",
+      "userTitle": "历史学者、科普作家",
+      "userCompany": "华夏历史研究所",
+      "likeCount": 7856,
+      "liked": false,
+      "favoriteCount": 1134,
+      "favorited": false,
+      "commentCount": 3,
+      "viewCount": 143267,
+      "url": "https://ai-interactive-video-test.chuangjing.com/api/v1/preview/web/user-001/37da19e8-d89a-4afd-aa4f-4f0b853bab15/web/index.html",
+      "detail": "通过互动剧情体验曹冲称象的智慧过程，理解等量替换的科学原理。课程结合历史背景与科学知识，培养学生的创新思维能力。",
+      "comments": [
+        {
+          "id": 50004,
+          "userId": 8004,
+          "userName": "学员8004",
+          "userAvatar": "https://example.com/avatars/student_8004.jpg",
+          "content": "曹冲的智慧让人佩服，互动环节设计得很有趣。",
+          "createdAt": "2025-12-25T18:10:00Z"
+        },
+        {
+          "id": 50005,
+          "userId": 8005,
+          "userName": "学员8005",
+          "userAvatar": "https://example.com/avatars/student_8005.jpg",
+          "content": "从故事中学到了科学方法，很实用的课程。",
+          "createdAt": "2025-12-25T18:30:00Z"
+        },
+        {
+          "id": 50006,
+          "userId": 8006,
+          "userName": "学员8006",
+          "userAvatar": "https://example.com/avatars/student_8006.jpg",
+          "content": "历史与科学结合得很好，孩子很喜欢。",
+          "createdAt": "2025-12-25T19:00:00Z"
+        }
+      ],
+      "likedUsers": [],
+      "createdAt": "2025-12-25T17:57:23Z",
+      "updatedAt": "2025-12-25T21:43:58Z"
+    },
+    {
+      "id": 11,
+      "title": "三顾茅庐",
+      "desc": "解读刘备三顾茅庐请诸葛亮出山的历史佳话，学习礼贤下士的处世智慧。",
+      "cover": "https://static0.xesimg.com/next-studio-pub/ugc/images/sangumaolu.png",
+      "thumbs": [
+        "https://static0.xesimg.com/next-studio-pub/ugc/images/Snipaste_2025-12-22_11-46-38.png",
+        "https://static0.xesimg.com/next-studio-pub/ugc/images/Snipaste_2025-12-22_11-46-38.png"
+      ],
+      "videoUrl": "",
+      "contentType": "video",
+      "aspectRatio": 1.78,
+      "width": 1920,
+      "height": 1080,
+      "tags": [
+        {
+          "id": 1010,
+          "name": "三国史"
+        },
+        {
+          "id": 1026,
+          "name": "礼贤下士"
+        },
+        {
+          "id": 1027,
+          "name": "处世智慧"
+        }
+      ],
+      "category": "伦理",
+      "userId": 302,
+      "userName": "张文博",
+      "userAvatar": "https://example.com/avatars/teacher_302.jpg",
+      "userTitle": "历史学者、科普作家",
+      "userCompany": "华夏历史研究所",
+      "likeCount": 7123,
+      "liked": false,
+      "favoriteCount": 1087,
+      "favorited": false,
+      "commentCount": 3,
+      "viewCount": 145678,
+      "url": "https://ai-interactive-video-test.chuangjing.com/api/v1/preview/web/user-001/92662a8a-5bd0-4363-bb7d-07ea2907bed4/web/index.html",
+      "detail": "重现刘备三顾茅庐的历史场景，分析刘备的用人之道与诸葛亮的治国才能。课程结合历史背景与人物性格分析，培养学生的领导力思维。",
+      "comments": [
+        {
+          "id": 50031,
+          "userId": 8031,
+          "userName": "学员8031",
+          "userAvatar": "https://example.com/avatars/student_8031.jpg",
+          "content": "刘备的诚意令人感动，理解了礼贤下士的重要性。",
+          "createdAt": "2025-12-22T11:30:00Z"
+        },
+        {
+          "id": 50032,
+          "userId": 8032,
+          "userName": "学员8032",
+          "userAvatar": "https://example.com/avatars/student_8032.jpg",
+          "content": "从历史故事中学到了用人之道，很有启发。",
+          "createdAt": "2025-12-22T11:45:00Z"
+        },
+        {
+          "id": 50033,
+          "userId": 8033,
+          "userName": "学员8033",
+          "userAvatar": "https://example.com/avatars/student_8033.jpg",
+          "content": "互动环节设计得很好，让人身临其境。",
+          "createdAt": "2025-12-22T12:00:00Z"
+        }
+      ],
+      "likedUsers": [],
+      "createdAt": "2025-12-22T11:09:41Z",
+      "updatedAt": "2025-12-25T14:20:52Z"
+    },
+    {
+      "id": 3,
+      "title": "大闹天宫",
+      "desc": "从《西游记》与民间神话出发，解析孙悟空大闹天宫的叙事结构、人物原型与文化象征。",
+      "cover": "https://static0.xesimg.com/next-studio-pub/ugc/images/danaotiangong.png",
+      "thumbs": [
+        "https://static0.xesimg.com/next-studio-pub/mod_docs_file/cover_image_20251225_155656_407950_1766649416.png",
+        "https://static0.xesimg.com/next-studio-pub/mod_docs_file/cover_image_20251225_155656_407950_1766649416.png"
+      ],
+      "videoUrl": "",
+      "contentType": "video",
+      "aspectRatio": 1.78,
+      "width": 1920,
+      "height": 1080,
+      "tags": [
+        {
+          "id": 1001,
+          "name": "中国神话"
+        },
+        {
+          "id": 1002,
+          "name": "文学鉴赏"
+        },
+        {
+          "id": 1003,
+          "name": "人物分析"
+        },
+        {
+          "id": 1004,
+          "name": "文化符号"
+        }
+      ],
+      "category": "神话",
+      "userId": 301,
+      "userName": "林安",
+      "userAvatar": "https://example.com/avatars/teacher_301.jpg",
+      "userTitle": "古典文学讲师、民俗文化研究者",
+      "userCompany": "海岳人文研究院",
+      "likeCount": 9321,
+      "liked": false,
+      "favoriteCount": 1532,
+      "favorited": false,
+      "commentCount": 3,
+      "viewCount": 210563,
+      "url": "https://ai-interactive-video-test.chuangjing.com/api/v1/preview/web/user-001/cd041b27-5256-4e42-8953-d9fac9d2ba73/web/index.html",
+      "detail": "课程围绕《大闹天宫》的文本与影像改编，解析孙悟空的反叛与秩序重建，解读法天象与神仙体系的社会隐喻。适合中学生与人文爱好者，收获人物解读框架与神话文化读法。",
+      "comments": [
+        {
+          "id": 50007,
+          "userId": 8007,
+          "userName": "学员8007",
+          "userAvatar": "https://example.com/avatars/student_8007.jpg",
+          "content": "将神话与社会文化联系起来，启发很大，理解了\"反叛\"背后的秩序主题。",
+          "createdAt": "2025-12-25T16:10:00Z"
+        },
+        {
+          "id": 50008,
+          "userId": 8008,
+          "userName": "学员8008",
+          "userAvatar": "https://example.com/avatars/student_8008.jpg",
+          "content": "文本细读有方法，人物原型讲得清楚，课堂互动不错。",
+          "createdAt": "2025-12-25T16:25:00Z"
+        },
+        {
+          "id": 50009,
+          "userId": 8009,
+          "userName": "学员8009",
+          "userAvatar": "https://example.com/avatars/student_8009.jpg",
+          "content": "把不同版本对比很有用，理解了影视改编的取舍。",
+          "createdAt": "2025-12-25T16:40:00Z"
+        }
+      ],
+      "likedUsers": [],
+      "createdAt": "2025-12-25T15:56:09Z",
+      "updatedAt": "2025-12-25T16:44:16Z"
+    },
+    {
+      "id": 4,
+      "title": "三打白骨精",
+      "desc": "深入解析《西游记》中三打白骨精的经典桥段，探讨师徒关系与人性考验。",
+      "cover": "https://static0.xesimg.com/next-studio-pub/ugc/images/sandabaigujing.png",
+      "thumbs": [
+        "https://static0.xesimg.com/next-studio-pub/mod_docs_file/cover_image_20251225_105426_979391_1766631266.png",
+        "https://static0.xesimg.com/next-studio-pub/mod_docs_file/cover_image_20251225_105426_979391_1766631266.png"
+      ],
+      "videoUrl": "",
+      "contentType": "video",
+      "aspectRatio": 1.78,
+      "width": 1920,
+      "height": 1080,
+      "tags": [
+        {
+          "id": 1001,
+          "name": "中国神话"
+        },
+        {
+          "id": 1002,
+          "name": "文学鉴赏"
+        },
+        {
+          "id": 1009,
+          "name": "师徒关系"
+        }
+      ],
+      "category": "神话",
+      "userId": 301,
+      "userName": "林安",
+      "userAvatar": "https://example.com/avatars/teacher_301.jpg",
+      "userTitle": "古典文学讲师、民俗文化研究者",
+      "userCompany": "海岳人文研究院",
+      "likeCount": 6543,
+      "liked": false,
+      "favoriteCount": 987,
+      "favorited": false,
+      "commentCount": 3,
+      "viewCount": 128456,
+      "url": "https://ai-interactive-video-test.chuangjing.com/api/v1/preview/web/user-001/996e94b8-ecf8-47a4-97da-87269183c27d/web/index.html",
+      "detail": "通过互动剧情体验三打白骨精的故事，分析唐僧与孙悟空的矛盾冲突，理解信任与判断的主题。课程结合文学分析与人物心理探讨。",
+      "comments": [
+        {
+          "id": 50010,
+          "userId": 8010,
+          "userName": "学员8010",
+          "userAvatar": "https://example.com/avatars/student_8010.jpg",
+          "content": "师徒矛盾分析得很透彻，理解了人物的复杂性。",
+          "createdAt": "2025-12-25T11:05:00Z"
+        },
+        {
+          "id": 50011,
+          "userId": 8011,
+          "userName": "学员8011",
+          "userAvatar": "https://example.com/avatars/student_8011.jpg",
+          "content": "互动设计让人思考，故事背后的深意值得玩味。",
+          "createdAt": "2025-12-25T11:15:00Z"
+        },
+        {
+          "id": 50012,
+          "userId": 8012,
+          "userName": "学员8012",
+          "userAvatar": "https://example.com/avatars/student_8012.jpg",
+          "content": "从新的角度看待经典故事，收获很大。",
+          "createdAt": "2025-12-25T11:20:00Z"
+        }
+      ],
+      "likedUsers": [],
+      "createdAt": "2025-12-25T10:53:48Z",
+      "updatedAt": "2025-12-25T11:23:22Z"
+    },
+    {
+      "id": 5,
+      "title": "桃园结义",
+      "desc": "以史料与文本双线索，解读刘关张结义的时代背景、伦理内涵与政治影响。",
+      "cover": "https://static0.xesimg.com/next-studio-pub/ugc/images/taoyuanjieyi.png",
+      "thumbs": [
+        "https://static0.xesimg.com/next-studio-pub/mod_docs_file/cover_image_20251223_140519_146325_1766469919.png",
+        "https://static0.xesimg.com/next-studio-pub/mod_docs_file/cover_image_20251223_140519_146325_1766469919.png"
+      ],
+      "videoUrl": "",
+      "contentType": "video",
+      "aspectRatio": 1.33,
+      "width": 1200,
+      "height": 900,
+      "tags": [
+        {
+          "id": 1010,
+          "name": "三国史"
+        },
+        {
+          "id": 1011,
+          "name": "伦理与政治"
+        },
+        {
+          "id": 1012,
+          "name": "历史人物"
+        }
+      ],
+      "category": "历史",
+      "userId": 302,
+      "userName": "张文博",
+      "userAvatar": "https://example.com/avatars/teacher_302.jpg",
+      "userTitle": "历史学者、科普作家",
+      "userCompany": "华夏历史研究所",
+      "likeCount": 7234,
+      "liked": false,
+      "favoriteCount": 1098,
+      "favorited": false,
+      "commentCount": 3,
+      "viewCount": 165432,
+      "url": "https://ai-interactive-video-test.chuangjing.com/api/v1/preview/web/user-001/ae068fd7-26b2-44f6-863f-2f3b334543bb/web/index.html",
+      "detail": "探讨桃园结义的历史真实性与文化意义，分析刘备、关羽、张飞三人的性格特点与政治抱负。课程融合史料考证与文学分析。",
+      "comments": [
+        {
+          "id": 50013,
+          "userId": 8013,
+          "userName": "学员8013",
+          "userAvatar": "https://example.com/avatars/student_8013.jpg",
+          "content": "史料详实，分析深入，对三国历史有了新的认识。",
+          "createdAt": "2025-12-23T14:20:00Z"
+        },
+        {
+          "id": 50014,
+          "userId": 8014,
+          "userName": "学员8014",
+          "userAvatar": "https://example.com/avatars/student_8014.jpg",
+          "content": "讲解生动，互动环节设计巧妙。",
+          "createdAt": "2025-12-23T14:35:00Z"
+        },
+        {
+          "id": 50015,
+          "userId": 8015,
+          "userName": "学员8015",
+          "userAvatar": "https://example.com/avatars/student_8015.jpg",
+          "content": "理解了义与利的关系，受益匪浅。",
+          "createdAt": "2025-12-23T14:50:00Z"
+        }
+      ],
+      "likedUsers": [],
+      "createdAt": "2025-12-23T14:04:24Z",
+      "updatedAt": "2025-12-25T12:01:06Z"
+    },
+    
+    {
+      "id": 14,
+      "title": "真假李逵",
+      "desc": "体验水浒传中真假李逵的经典故事，学习辨别真伪的智慧。",
+      "cover": "https://static0.xesimg.com/next-studio-pub/mod_docs_file/cover_image_20251227_192654_146473_1766834814.png",
+      "thumbs": [
+        "https://static0.xesimg.com/next-studio-pub/mod_docs_file/cover_image_20251227_192654_146473_1766834814.png",
+        "https://static0.xesimg.com/next-studio-pub/mod_docs_file/cover_image_20251227_192654_146473_1766834814.png"
+      ],
+      "videoUrl": "",
+      "contentType": "video",
+      "aspectRatio": 1.78,
+      "width": 1920,
+      "height": 1080,
+      "tags": [
+        {
+          "id": 1036,
+          "name": "水浒传"
+        },
+        {
+          "id": 1037,
+          "name": "古典文学"
+        },
+        {
+          "id": 1038,
+          "name": "智慧思辨"
+        }
+      ],
+      "category": "文学",
+      "userId": 301,
+      "userName": "林安",
+      "userAvatar": "https://example.com/avatars/teacher_301.jpg",
+      "userTitle": "古典文学讲师、民俗文化研究者",
+      "userCompany": "海岳人文研究院",
+      "likeCount": 7654,
+      "liked": false,
+      "favoriteCount": 1234,
+      "favorited": false,
+      "commentCount": 3,
+      "viewCount": 145678,
+      "url": "https://ai-interactive-video-test.chuangjing.com/api/v1/preview/web/user-001/da6d265b-ee31-49df-9e80-4f57aadc116e/web/index.html",
+      "detail": "通过互动剧情体验真假李逵的故事，分析李逵与李鬼的性格对比，学习辨别真伪、伸张正义的道理。课程结合文学鉴赏与道德教育。",
+      "comments": [
+        {
+          "id": 50040,
+          "userId": 8040,
+          "userName": "学员8040",
+          "userAvatar": "https://example.com/avatars/student_8040.jpg",
+          "content": "故事情节紧张刺激，人物刻画生动形象。",
+          "createdAt": "2025-12-27T19:35:00Z"
+        },
+        {
+          "id": 50041,
+          "userId": 8041,
+          "userName": "学员8041",
+          "userAvatar": "https://example.com/avatars/student_8041.jpg",
+          "content": "从故事中学到了辨别真伪的重要性。",
+          "createdAt": "2025-12-27T19:50:00Z"
+        },
+        {
+          "id": 50042,
+          "userId": 8042,
+          "userName": "学员8042",
+          "userAvatar": "https://example.com/avatars/student_8042.jpg",
+          "content": "互动环节设计巧妙，引人入胜。",
+          "createdAt": "2025-12-27T20:05:00Z"
+        }
+      ],
+      "likedUsers": [],
+      "createdAt": "2025-12-27T19:26:00Z",
+      "updatedAt": "2025-12-27T19:47:49Z"
+    },
+    {
+      "id": 8,
+      "title": "奥特曼大战哥斯拉金刚",
+      "desc": "体验经典怪兽大战的激情碰撞，探索正义与力量的终极对决。",
+      "cover": "https://static0.xesimg.com/next-studio-pub/ugc/images/gesila.png",
+      "thumbs": [
+        "https://static0.xesimg.com/next-studio-pub/mod_docs_file/cover_image_20251225_230208_897426_1766674928.png",
+        "https://static0.xesimg.com/next-studio-pub/mod_docs_file/cover_image_20251225_230208_897426_1766674928.png"
+      ],
+      "videoUrl": "",
+      "contentType": "video",
+      "aspectRatio": 1.78,
+      "width": 1920,
+      "height": 1080,
+      "tags": [
+        {
+          "id": 1018,
+          "name": "科幻冒险"
+        },
+        {
+          "id": 1019,
+          "name": "怪兽电影"
+        },
+        {
+          "id": 1020,
+          "name": "正义与勇气"
+        }
+      ],
+      "category": "科幻",
+      "userId": 304,
+      "userName": "王晨曦",
+      "userAvatar": "https://example.com/avatars/teacher_304.jpg",
+      "userTitle": "科幻文学研究者、影视评论人",
+      "userCompany": "星云传媒工作室",
+      "likeCount": 12345,
+      "liked": false,
+      "favoriteCount": 2134,
+      "favorited": false,
+      "commentCount": 3,
+      "viewCount": 298765,
+      "url": "https://ai-interactive-video-test.chuangjing.com/api/v1/preview/web/user-001/00927ce4-8357-494c-8a16-8c5d6d64e37a/web/index.html",
+      "detail": "在这场史诗级的怪兽大战中，体验奥特曼、哥斯拉、金刚三大经典角色的巅峰对决。通过互动选择，决定战斗走向，探讨正义、力量与责任的深层含义。适合科幻爱好者和青少年观众。",
+      "comments": [
+        {
+          "id": 50022,
+          "userId": 8022,
+          "userName": "学员8022",
+          "userAvatar": "https://example.com/avatars/student_8022.jpg",
+          "content": "太震撼了！三大怪兽同台竞技，场面宏大，互动体验超赞！",
+          "createdAt": "2025-12-25T23:05:00Z"
+        },
+        {
+          "id": 50023,
+          "userId": 8023,
+          "userName": "学员8023",
+          "userAvatar": "https://example.com/avatars/student_8023.jpg",
+          "content": "从怪兽大战中理解了正义与力量的关系，很有意义。",
+          "createdAt": "2025-12-25T23:15:00Z"
+        },
+        {
+          "id": 50024,
+          "userId": 8024,
+          "userName": "学员8024",
+          "userAvatar": "https://example.com/avatars/student_8024.jpg",
+          "content": "孩子看得目不转睛，互动设计让人有代入感。",
+          "createdAt": "2025-12-25T23:25:00Z"
+        }
+      ],
+      "likedUsers": [],
+      "createdAt": "2025-12-25T23:01:23Z",
+      "updatedAt": "2025-12-25T23:20:34Z"
+    },
+    {
+      "id": 7,
+      "title": "乌鸦喝水",
+      "desc": "从经典寓言故事出发，学习观察、思考与解决问题的方法。",
+      "cover": "https://static0.xesimg.com/next-studio-pub/ugc/images/wuyaheshui.png",
+      "thumbs": [
+        "https://static0.xesimg.com/next-studio-pub/mod_docs_file/cover_image_20251223_104913_540283_1766458153.png",
+        "https://static0.xesimg.com/next-studio-pub/mod_docs_file/cover_image_20251223_104913_540283_1766458153.png"
+      ],
+      "videoUrl": "",
+      "contentType": "video",
+      "aspectRatio": 1.78,
+      "width": 1920,
+      "height": 1080,
+      "tags": [
+        {
+          "id": 1015,
+          "name": "寓言故事"
+        },
+        {
+          "id": 1016,
+          "name": "科学原理"
+        },
+        {
+          "id": 1017,
+          "name": "问题解决"
+        }
+      ],
+      "category": "寓言",
+      "userId": 303,
+      "userName": "李思远",
+      "userAvatar": "https://example.com/avatars/teacher_303.jpg",
+      "userTitle": "儿童教育专家",
+      "userCompany": "智慧启蒙教育中心",
+      "likeCount": 5432,
+      "liked": false,
+      "favoriteCount": 876,
+      "favorited": false,
+      "commentCount": 3,
+      "viewCount": 98765,
+      "url": "https://ai-interactive-video-test.chuangjing.com/api/v1/preview/web/user-001/77bafe25-c449-419d-9d80-de64012f8234/web/index.html",
+      "detail": "通过乌鸦喝水的寓言故事，引导学生理解液体排水原理，培养观察力与创造性思维。适合小学生及家长共同学习。",
+      "comments": [
+        {
+          "id": 50019,
+          "userId": 8019,
+          "userName": "学员8019",
+          "userAvatar": "https://example.com/avatars/student_8019.jpg",
+          "content": "孩子很喜欢，通过故事学科学，寓教于乐。",
+          "createdAt": "2025-12-23T11:00:00Z"
+        },
+        {
+          "id": 50020,
+          "userId": 8020,
+          "userName": "学员8020",
+          "userAvatar": "https://example.com/avatars/student_8020.jpg",
+          "content": "互动环节设计得很好，激发了孩子的思考。",
+          "createdAt": "2025-12-23T11:10:00Z"
+        },
+        {
+          "id": 50021,
+          "userId": 8021,
+          "userName": "学员8021",
+          "userAvatar": "https://example.com/avatars/student_8021.jpg",
+          "content": "从经典故事中学到了科学道理，很棒的课程。",
+          "createdAt": "2025-12-23T11:12:00Z"
+        }
+      ],
+      "likedUsers": [],
+      "createdAt": "2025-12-23T10:48:29Z",
+      "updatedAt": "2025-12-25T22:53:42Z"
+    },
+    {
+      "id": 10,
+      "title": "精卫填海",
+      "desc": "传承中国古代神话故事，感受精卫鸟坚持不懈的精神力量。",
+      "cover": "https://static0.xesimg.com/next-studio-pub/ugc/images/jingweitianhai.png",
+      "thumbs": [
+        "https://static0.xesimg.com/next-studio-pub/mod_docs_file/character_sheet_20251222_154549_061165_1766389549.png",
+        "https://static0.xesimg.com/next-studio-pub/mod_docs_file/character_sheet_20251222_154549_061165_1766389549.png"
+      ],
+      "videoUrl": "",
+      "contentType": "video",
+      "aspectRatio": 1.78,
+      "width": 1920,
+      "height": 1080,
+      "tags": [
+        {
+          "id": 1001,
+          "name": "中国神话"
+        },
+        {
+          "id": 1024,
+          "name": "精神品质"
+        },
+        {
+          "id": 1025,
+          "name": "坚持不懈"
+        }
+      ],
+      "category": "励志",
+      "userId": 301,
+      "userName": "林安",
+      "userAvatar": "https://example.com/avatars/teacher_301.jpg",
+      "userTitle": "古典文学讲师、民俗文化研究者",
+      "userCompany": "海岳人文研究院",
+      "likeCount": 6234,
+      "liked": false,
+      "favoriteCount": 945,
+      "favorited": false,
+      "commentCount": 3,
+      "viewCount": 123456,
+      "url": "https://ai-interactive-video-test.chuangjing.com/api/v1/preview/web/user-001/ebe028a2-731b-4727-96dc-bf9c803d5dd0/web/index.html",
+      "detail": "通过精卫填海的神话故事，传递坚持不懈、勇于挑战的精神品质。课程融合文学赏析与品德教育，适合青少年学习。",
+      "comments": [
+        {
+          "id": 50028,
+          "userId": 8028,
+          "userName": "学员8028",
+          "userAvatar": "https://example.com/avatars/student_8028.jpg",
+          "content": "精卫的精神很感人，故事讲得生动有趣。",
+          "createdAt": "2025-12-22T16:00:00Z"
+        },
+        {
+          "id": 50029,
+          "userId": 8029,
+          "userName": "学员8029",
+          "userAvatar": "https://example.com/avatars/student_8029.jpg",
+          "content": "从神话故事中学到了坚持的力量，很励志。",
+          "createdAt": "2025-12-22T16:15:00Z"
+        },
+        {
+          "id": 50030,
+          "userId": 8030,
+          "userName": "学员8030",
+          "userAvatar": "https://example.com/avatars/student_8030.jpg",
+          "content": "互动设计让孩子理解了故事的深层含义。",
+          "createdAt": "2025-12-22T16:30:00Z"
+        }
+      ],
+      "likedUsers": [],
+      "createdAt": "2025-12-22T15:43:49Z",
+      "updatedAt": "2025-12-25T14:45:53Z"
+    },
+    
+    {
+      "id": 12,
+      "title": "草船借箭",
+      "desc": "解析诸葛亮草船借箭的经典智谋，学习运筹帷幄的战略思维。",
+      "cover": "https://static0.xesimg.com/next-studio-pub/ugc/images/caochuanjiejian.png",
+      "thumbs": [
+        "https://static0.xesimg.com/next-studio-pub/ugc/images/Snipaste_2025-12-21_20-12-04.png",
+        "https://static0.xesimg.com/next-studio-pub/ugc/images/Snipaste_2025-12-21_20-12-04.png"
+      ],
+      "videoUrl": "",
+      "contentType": "video",
+      "aspectRatio": 1.78,
+      "width": 1920,
+      "height": 1080,
+      "tags": [
+        {
+          "id": 1010,
+          "name": "三国史"
+        },
+        {
+          "id": 1028,
+          "name": "智谋策略"
+        },
+        {
+          "id": 1029,
+          "name": "运筹帷幄"
+        }
+      ],
+      "category": "策略",
+      "userId": 302,
+      "userName": "张文博",
+      "userAvatar": "https://example.com/avatars/teacher_302.jpg",
+      "userTitle": "历史学者、科普作家",
+      "userCompany": "华夏历史研究所",
+      "likeCount": 8456,
+      "liked": false,
+      "favoriteCount": 1345,
+      "favorited": false,
+      "commentCount": 3,
+      "viewCount": 187654,
+      "url": "https://ai-interactive-video-test.chuangjing.com/api/v1/preview/web/user-001/4b1099ad-d4d8-48fc-8a8f-8adc426b76ed/web/index.html",
+      "detail": "通过互动剧情体验草船借箭的全过程，分析诸葛亮如何巧妙利用天时地利人和。课程结合历史分析与战略思维训练，培养学生的智谋能力。",
+      "comments": [
+        {
+          "id": 50034,
+          "userId": 8034,
+          "userName": "学员8034",
+          "userAvatar": "https://example.com/avatars/student_8034.jpg",
+          "content": "诸葛亮的智谋令人叹服，互动设计很精彩。",
+          "createdAt": "2025-12-21T17:30:00Z"
+        },
+        {
+          "id": 50035,
+          "userId": 8035,
+          "userName": "学员8035",
+          "userAvatar": "https://example.com/avatars/student_8035.jpg",
+          "content": "从案例中学到了战略思维，受益匪浅。",
+          "createdAt": "2025-12-21T17:45:00Z"
+        },
+        {
+          "id": 50036,
+          "userId": 8036,
+          "userName": "学员8036",
+          "userAvatar": "https://example.com/avatars/student_8036.jpg",
+          "content": "历史故事讲得生动，理论分析深入浅出。",
+          "createdAt": "2025-12-21T18:00:00Z"
+        }
+      ],
+      "likedUsers": [],
+      "createdAt": "2025-12-21T17:04:09Z",
+      "updatedAt": "2025-12-25T15:22:21Z"
+    },{
+      "id": 15,
+      "title": "烽火戏诸侯",
+      "desc": "探索西周末年烽火戏诸侯的历史故事，理解周幽王失信于诸侯的深刻教训。",
+      "cover": "https://static0.xesimg.com/next-studio-pub/mod_docs_file/cover_image_20251227_200146_191194_1766836906.png",
+      "thumbs": [
+        "https://static0.xesimg.com/next-studio-pub/mod_docs_file/cover_image_20251227_200146_191194_1766836906.png",
+        "https://static0.xesimg.com/next-studio-pub/mod_docs_file/cover_image_20251227_200146_191194_1766836906.png"
+      ],
+      "videoUrl": "",
+      "contentType": "video",
+      "aspectRatio": 1.78,
+      "width": 1920,
+      "height": 1080,
+      "tags": [
+        {
+          "id": 1033,
+          "name": "西周历史"
+        },
+        {
+          "id": 1034,
+          "name": "诚信教育"
+        },
+        {
+          "id": 1035,
+          "name": "历史典故"
+        }
+      ],
+      "category": "历史",
+      "userId": 302,
+      "userName": "张文博",
+      "userAvatar": "https://example.com/avatars/teacher_302.jpg",
+      "userTitle": "历史学者、科普作家",
+      "userCompany": "华夏历史研究所",
+      "likeCount": 5678,
+      "liked": false,
+      "favoriteCount": 892,
+      "favorited": false,
+      "commentCount": 3,
+      "viewCount": 112345,
+      "url": "https://ai-interactive-video-test.chuangjing.com/api/v1/preview/web/user-001/4f45310c-0380-4f03-b259-cda34583f081/web/index.html",
+      "detail": "通过互动剧情重现烽火戏诸侯的历史场景，深入理解周幽王为博褒姒一笑而失信于诸侯的严重后果。课程结合历史背景与诚信教育，培养学生的道德品质。",
+      "comments": [
+        {
+          "id": 50043,
+          "userId": 8043,
+          "userName": "学员8043",
+          "userAvatar": "https://example.com/avatars/student_8043.jpg",
+          "content": "历史教训深刻，理解了诚信的重要性。",
+          "createdAt": "2025-12-27T20:15:00Z"
+        },
+        {
+          "id": 50044,
+          "userId": 8044,
+          "userName": "学员8044",
+          "userAvatar": "https://example.com/avatars/student_8044.jpg",
+          "content": "互动设计很有趣，让历史故事更加生动。",
+          "createdAt": "2025-12-27T20:30:00Z"
+        },
+        {
+          "id": 50045,
+          "userId": 8045,
+          "userName": "学员8045",
+          "userAvatar": "https://example.com/avatars/student_8045.jpg",
+          "content": "从古人的错误中吸取教训，受益匪浅。",
+          "createdAt": "2025-12-27T20:45:00Z"
+        }
+      ],
+      "likedUsers": [],
+      "createdAt": "2025-12-27T20:00:51Z",
+      "updatedAt": "2025-12-27T20:22:32Z"
+    },
+    {
+      "id": 13,
+      "title": "狼牙山五壮士",
+      "desc": "重温抗日战争时期狼牙山五壮士英勇抗敌的英雄事迹，学习革命先烈的爱国精神和牺牲精神。",
+      "cover": "https://static0.xesimg.com/next-studio-pub/ugc/images/Snipaste_2025-12-27_18-03-09.png",
+      "thumbs": [
+        "https://static0.xesimg.com/next-studio-pub/ugc/images/Snipaste_2025-12-27_18-03-09.png",
+        "https://static0.xesimg.com/next-studio-pub/ugc/images/Snipaste_2025-12-27_18-03-09.png"
+      ],
+      "videoUrl": "",
+      "contentType": "video",
+      "aspectRatio": 1.78,
+      "width": 1920,
+      "height": 1080,
+      "tags": [
+        {
+          "id": 1030,
+          "name": "抗日战争"
+        },
+        {
+          "id": 1031,
+          "name": "英雄事迹"
+        },
+        {
+          "id": 1032,
+          "name": "爱国主义"
+        }
+      ],
+      "category": "历史",
+      "userId": 302,
+      "userName": "张文博",
+      "userAvatar": "https://example.com/avatars/teacher_302.jpg",
+      "userTitle": "历史学者、科普作家",
+      "userCompany": "华夏历史研究所",
+      "likeCount": 9876,
+      "liked": false,
+      "favoriteCount": 1678,
+      "favorited": false,
+      "commentCount": 3,
+      "viewCount": 234567,
+      "url": "https://ai-interactive-video-test.chuangjing.com/api/v1/preview/web/user-001/34952c45-4d0c-4ccc-8750-368445a92b59/web/index.html",
+      "detail": "通过互动式视频重现狼牙山五壮士英勇抗敌、宁死不屈的英雄事迹。课程结合历史背景与爱国主义教育，培养学生的民族自豪感和爱国情怀。",
+      "comments": [
+        {
+          "id": 50037,
+          "userId": 8037,
+          "userName": "学员8037",
+          "userAvatar": "https://example.com/avatars/student_8037.jpg",
+          "content": "五位英雄的事迹令人动容，深刻感受到革命先烈的伟大。",
+          "createdAt": "2025-12-27T16:15:00Z"
+        },
+        {
+          "id": 50038,
+          "userId": 8038,
+          "userName": "学员8038",
+          "userAvatar": "https://example.com/avatars/student_8038.jpg",
+          "content": "互动体验让历史更加生动，铭记历史，珍惜和平。",
+          "createdAt": "2025-12-27T16:30:00Z"
+        },
+        {
+          "id": 50039,
+          "userId": 8039,
+          "userName": "学员8039",
+          "userAvatar": "https://example.com/avatars/student_8039.jpg",
+          "content": "课程设计很用心，让孩子们理解了什么是真正的英雄。",
+          "createdAt": "2025-12-27T16:45:00Z"
+        }
+      ],
+      "likedUsers": [],
+      "createdAt": "2025-12-27T16:01:27Z",
+      "updatedAt": "2025-12-27T16:27:17Z"
+    }
+  ]
+}
