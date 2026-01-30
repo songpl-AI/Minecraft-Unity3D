@@ -72,7 +72,6 @@ Shader "Custom/VertexColor"
             {
                 inputData = (InputData)0;
                 inputData.positionWS = input.positionWS;
-                inputData.positionCS = input.positionCS;
                 inputData.normalWS = NormalizeNormalPerPixel(input.normalWS);
                 inputData.viewDirectionWS = GetWorldSpaceNormalizeViewDir(input.positionWS);
 
@@ -84,7 +83,7 @@ Shader "Custom/VertexColor"
                     inputData.shadowCoord = float4(0, 0, 0, 0);
                 #endif
 
-                inputData.fogCoord = InitializeInputDataFog(float4(input.positionWS, 1.0), input.fogFactor);
+                inputData.fogCoord = input.fogFactor;
                 inputData.vertexLighting = half3(0, 0, 0);
 
                 #if defined(DYNAMICLIGHTMAP_ON)
@@ -177,7 +176,20 @@ Shader "Custom/VertexColor"
             #pragma multi_compile_instancing
 
             #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Core.hlsl"
+            #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/SurfaceInput.hlsl"
             #include "Packages/com.unity.render-pipelines.core/ShaderLibrary/CommonMaterial.hlsl"
+            CBUFFER_START(UnityPerMaterial)
+                float4 _MainTex_ST;
+            CBUFFER_END
+
+            TEXTURE2D(_MainTex);
+            SAMPLER(sampler_MainTex);
+
+            #define _BaseMap _MainTex
+            #define sampler_BaseMap sampler_MainTex
+            #define _BaseMap_ST _MainTex_ST
+            #define _BaseColor half4(1, 1, 1, 1)
+            #define _Cutoff 0
             #include "Packages/com.unity.render-pipelines.universal/Shaders/ShadowCasterPass.hlsl"
             ENDHLSL
         }
